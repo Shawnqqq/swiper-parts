@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Swiper插件演示</title>
+    <style>
+    #aaa{
+        width: 1024px;
+        height: 768px;
+        margin: 20px auto;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="aaa">
+        <div id="bbb"></div>
+        <div id="ccc"></div>
+    </div>
+    <script src="./swiper.js"></script>
+    <script>
+        new Swiper({
+            containerId: 'aaa',
+            listId:'bbb',
+            imgUrl:["./img/img-1.jpg","./img/img-2.jpg","./img/img-3.jpg"],
+            btnId:'ccc',
+        })
+    </script>
+</body>
+</html>
